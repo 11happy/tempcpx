@@ -6,7 +6,7 @@ apt install hyperfine
 Edit the binary path in the script Line 13:
 `CPX_PATH="$HOME/cpx/cpx"`  # adjust accordingly
 
-also try experimenting(first run with 16 only) the values of -j=num_parallel
+also try experimenting(first run with 16 only, then try 32, if possible 48 64 etc) the values of -j=num_parallel
 
 Line 132 in bench.sh `"$CPX_PATH -r -j=16 $REPOS_DIR/$name $BENCH_DIR/dest_cpx"`
 
