@@ -3,6 +3,11 @@ https://github.com/sharkdp/hyperfine
 ```
 apt install hyperfine
 ```
+or 
+```
+wget https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine_1.20.0_amd64.deb
+sudo dpkg -i hyperfine_1.20.0_amd64.deb
+```
 Edit the binary path in the script Line 13:
 `CPX_PATH="$HOME/cpx/cpx"`  # adjust accordingly
 
